@@ -1,9 +1,5 @@
 import React from 'react'
-import ProgressBar from 'react-bootstrap/ProgressBar';
-
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
+import'./skill.css';
 
 
 
@@ -19,131 +15,127 @@ const skill = () => {
 
 
 
-        <div >
-        <center >
-               <div style={{width:"65%"}}>
-               <Card sx={{ minWidth: 275,  marginRight:""}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>C++</text><ProgressBar animated now={84} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card>
-            <br/>
-
-            <Card sx={{ minWidth: 275,  marginRight:""}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>Python</text><ProgressBar animated now={63} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card>
-            <br/>
+        <center>
+              <div className="containerskill">
+                <div className="allbars">
+                  <div className="bar">
+                  <span className='gtb'>
+                  <label style={{marginLeft:"2%"}}><h5>C++  </h5></label>
+                  <center><progress value="80" max="100" style={{width:"90%",height:"25px",marginLeft:"%"}} /></center>
+                  </span>
+                  </div>
+                </div>
+              </div>  
+                
+              
 
 
 
-            <Card sx={{ minWidth: 275,  marginRight:""}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>Django</text><ProgressBar animated now={70} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card>
-            <br/>
-
-            <Card sx={{ minWidth: 275,  marginRight:""}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>JavaScript</text><ProgressBar animated now={55} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card>
-            <br/>
+              <div className="containerskill">
+                <div className="allbars">
+                  <div className="bar">
+                  <span className='gtb'>
+                  <label style={{marginLeft:"2%"}}><h5>Python  </h5></label>
+                  <center><progress value="64" max="100" style={{width:"90%",height:"25px",marginLeft:"%"}} /></center>
+                  </span>
+                  </div>
+                </div>
+              </div>
 
 
 
-            <Card sx={{ minWidth: 275,  marginRight:""}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>React Js</text><ProgressBar animated now={65} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card>
-            <br/>
-
-            <Card sx={{ minWidth: 275,  marginRight:""}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>HTML</text><ProgressBar animated now={90} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card>
-            <br/>
+              <div className="containerskill">
+                <div className="allbars">
+                  <div className="bar">
+                  <span className='gtb'>
+                  <label style={{marginLeft:"2%"}}><h5>Django</h5></label>
+                  <center><progress value="73" max="100" style={{width:"90%",height:"25px",marginLeft:"%"}} /></center>
+                  </span>
+                  </div>
+                </div>
+              </div>
 
 
 
-            <Card sx={{ minWidth: 275,  marginRight:""}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>CSS</text><ProgressBar animated now={75} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card>
-            <br/>
-
-            <Card sx={{ minWidth: 275,  marginRight:""}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>BootsTrap</text><ProgressBar animated now={67} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card>
-            <br/>
+              <div className="containerskill">
+                <div className="allbars">
+                  <div className="bar">
+                  <span className='gtb'>
+                  <label style={{marginLeft:"2%"}}><h5>JavaScript  </h5></label>
+                  <center><progress value="65" max="100" style={{width:"90%",height:"25px",marginLeft:"%"}} /></center>
+                  </span>
+                  </div>
+                </div>
+              </div>
 
 
 
-            <Card sx={{ minWidth: 275,  marginRight:""}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>MySQL</text><ProgressBar animated now={80} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card>
-            <br/>
+              <div className="containerskill">
+                <div className="allbars">
+                  <div className="bar">
+                  <span className='gtb'>
+                  <label style={{marginLeft:"2%"}}><h5>React JS  </h5></label>
+                  <center><progress value="70" max="100" style={{width:"90%",height:"25px",marginLeft:"%"}} /></center>
+                  </span>
+                  </div>
+                </div>
+              </div>
 
-            {/* <Card sx={{ minWidth: 275,  marginRight:"18%"}}>
-              <CardContent>
-                <Typography variant="body2" style={{textAlign:"left"}}>
-                <span>
-                  <span><text>c++</text><ProgressBar animated now={45} style={{width:"40rem"}} /></span>
-                </span>
-                </Typography>
-              </CardContent>            
-            </Card> */}
-            <br/>
-               </div>
-        </center>
+
+              <div className="containerskill">
+                <div className="allbars">
+                  <div className="bar">
+                  <span className='gtb'>
+                  <label style={{marginLeft:"2%"}}><h5>HTML  </h5></label>
+                  <center><progress value="85" max="100" style={{width:"90%",height:"25px",marginLeft:"%"}} /></center>
+                  </span>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div className="containerskill">
+                <div className="allbars">
+                  <div className="bar">
+                  <span className='gtb'>
+                  <label style={{marginLeft:"2%"}}><h5>CSS </h5></label>
+                  <center><progress value="68" max="100" style={{width:"90%",height:"25px",marginLeft:"%"}} /></center>
+                  </span>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div className="containerskill">
+                <div className="allbars">
+                  <div className="bar">
+                  <span className='gtb'>
+                  <label style={{marginLeft:"2%"}}><h5>Bootstrap  </h5></label>
+                  <center><progress value="70" max="100" style={{width:"90%",height:"25px",marginLeft:"%"}} /></center>
+                  </span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="containerskill">
+                <div className="allbars">
+                  <div className="bar">
+                  <span className='gtb'>
+                  <label style={{marginLeft:"2%",marginTop:"2%"}}><h5>MySQL</h5></label>
+                  <center><progress value="75" max="100" style={{width:"90%",height:"25px",marginLeft:"%"}} /></center>
+                  </span>
+                  </div>
+                </div>
+              </div>
+
+    
+      </center>
       
-      </div>
-
+     
+    
     </div>
     </>
   )

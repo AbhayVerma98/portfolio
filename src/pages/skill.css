@@ -1,0 +1,18 @@
+.containerskill{
+    
+    background-color: ;
+    height: 8%;
+    margin: 3%;
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+    width: 70%;
+    text-align: left;
+}
+.containerskill:hover{
+    box-shadow: 0 0 5px blue;
+    cursor: pointer;
+}
+
+.gtb{
+    margin: 3%;
+    width: 100%;
+}

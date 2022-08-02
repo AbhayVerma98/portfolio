@@ -1,0 +1,70 @@
+.ch{
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.containercer{
+    display: flex;
+    width: 920px;
+    height: auto;
+    margin: 50px auto;
+}
+.boxcer{
+    width: 32%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 2%;
+    background: blueviolet;
+    border-radius: 10px;
+    transition: 0.9;
+}
+.boxcer:hover{
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ h3{
+    background-color: blueviolet;
+    text-align: center;
+    color: rgb(104, 92, 92);
+}
+
+/*
+p{
+    font-size: 15px;
+    padding: 0 5px;
+} */
+@media (max-width: 800px){
+    .containercer{
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    .containercer{
+        width: 85%;
+        display: block;
+    }
+    .boxcer{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+}
+
+
+
+
+
+
+
+
+
