@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 import {Button } from 'react-bootstrap';
 import bimg from '../images/e1.jpeg';
-
+//testing 
 
 const home = () => {
   return (
@@ -12,6 +12,7 @@ const home = () => {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5000ca" fill-opacity="1" d="M0,96L288,192L576,256L864,160L1152,192L1440,0L1440,0L1152,0L864,0L576,0L288,0L0,0Z"></path></svg>                    
         
     <div className="containerHome">
+
 
 
     <div class="containerce">
@@ -38,7 +39,7 @@ const home = () => {
     
       <div class="boxce">
       <div className="imgHome">
-            <img src={bimg} />
+            <img src={bimg} alt="" />
         </div>
       </div>
     </div>
